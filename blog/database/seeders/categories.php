@@ -14,11 +14,15 @@ class categories extends Seeder
     public function run(): void
     {
         DB::table('categorias')->insert([
-            'name' => 'Árboles', 'img' => 'default.jpg', 'created_at' => date('Y-m-d H:i:s'),
+            'name' => 'Plantas', 
+            'img' => 'default.jpg', 
+            'created_at' => date('Y-m-d H:i:s'),
 
         ]);
    DB::table('categorias')->insert([
-            'name' => 'Arbustos', 'img' => 'default.jpg', 'created_at' => date('Y-m-d H:i:s'),
+            'name' => 'Arbustos', 
+            'img' => 'default.jpg', 
+            'created_at' => date('Y-m-d H:i:s'),
         ]);
     }
 }
